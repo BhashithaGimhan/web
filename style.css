@@ -117,3 +117,28 @@ footer {
 .profile-info p:hover {
     transform: translateY(-5px);    
 }
+.soft-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.soft-skill {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+.soft-skill{
+    color: #749ef8;
+    font-family: 'Times New Roman', Times, serif;
+}
+.soft-skill:hover {
+    transform: translateY(-5px);    
+}
+.soft-section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
